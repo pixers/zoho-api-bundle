@@ -1,0 +1,27 @@
+{
+    "name": "pixers/zoho-api-bundle",
+    "type": "symfony-bundle",
+    "description": "Zoho CRM API Symfony Bundle",
+    "keywords": ["Zoho", "CRM", "API", "PHP", "JSON", "Bundle", "Symfony"],
+    "authors": [
+        {
+            "name": "Michał Kanak",
+            "email": "michal.kanak@pixers.pl"
+        }
+    ],
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.5.0",
+        "pixers/zoho-api": "1.0",
+        "symfony/framework-bundle": "~2.3|~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": { "Pixers": "src/" }
+    }
+}
